@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - José Matheus</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">José Matheus</div>
+
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html" class="ativo">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <button class="btn-tema" onclick="alternarTema()">Tema (Dia/Noite)</button>
+        </nav>
+    </header>
+
+       <main>
+        <section class="portfolio">
+
+            <h1>Meu Portfólio</h1>
+            <p>Projetos e trabalhos desenvolvidos ao longo da minha trajetória.</p>
+
+            <!-- Grade de projetos -->
+            <div class="grid-projetos">
+
+                <div class="card-projeto">
+                    <h3>🖥️ API para delivery de pizza</h3>
+                    <p>Criação de API de delivery para pizzaria com Python e FastAPI, incluindo estrutura escalável para integração com front-end, banco de dados e futuros agentes de IA capazes de interpretar e processar pedidos automaticamente.</p>
+                    <a href="https://github.com/ZezeFerreira/fastAPI-delivery" target="_blank" class="btn-projeto">Ver projeto</a>
+                </div>
+
+
+                <div class="card-projeto">
+                    <h3>📊 Análise de dados da Alura Store</h3>
+                    <p>Projeto acadêmico juntamente com a Alura para criação de gráficos para analisar indicadores de desempenho da Alura Store</p>
+                    <a href="https://github.com/ZezeFerreira/analise-alura-store" target="_blank" class="btn-projeto">Ver projeto</a>
+                </div>
+
+            </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 José Matheus</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
